@@ -1,0 +1,62 @@
+wxremind
+------------------------------------------
+wxRemind is both a text and graphical front/back-end for Remind, a 
+powerful calendar and alarm application. The display features a calendar 
+and daily event list suitable for visualizing your schedule at a glance, 
+together with a flexible display of your free/busy times for the week of 
+the selected day.
+
+Runtime requirements:
+  python-2.5.2-1
+  python-dateutil-1.4-1
+  python-wx2.8-2.8.8.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  bison-2.3-1
+  cygport-0.3.11-1
+  flex-2.5.35-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.duke.edu/~dgraham/wxRemind/
+
+Canonical download:
+  http://www.duke.edu/~dgraham/wxRemind/
+
+-------------------------------------------
+
+Build instructions:
+  unpack wxremind-83-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./wxremind-83-X.cygport all
+
+This will create:
+  /usr/src/wxremind-83-X-src.tar.bz2
+  /usr/src/wxremind-83-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+------------------
+
+Port Notes:
+
+----- version 83-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,8 @@
+category: Utils
+requires: python python-dateutil python-wx2.8
+sdesc: "GUI for Remind"
+ldesc: "wxRemind is both a text and graphical front/back-end for Remind, 
+a powerful calendar and alarm application. The display features a 
+calendar and daily event list suitable for visualizing your schedule at 
+a glance, together with a flexible display of your free/busy times for 
+the week of the selected day."
