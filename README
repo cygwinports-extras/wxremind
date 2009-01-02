@@ -7,13 +7,13 @@ together with a flexible display of your free/busy times for the week of
 the selected day.
 
 Runtime requirements:
-  python-2.5.2-2
+  python-2.5.2-4
   python-dateutil-1.4-1
-  python-wx2.8-2.8.8.0-1
-  remind-03.01.05-1
+  python-wx2.8-2.8.9.1-1
+  remind-03.01.06-1
 
 Build requirements:
-  cygport-0.3.12-1
+  cygport-0.4.3-1
 
 Canonical website:
   http://www.duke.edu/~dgraham/wxRemind/
@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack wxremind-90-X-src.tar.bz2
+  unpack wxremind-100-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./wxremind-90-X.cygport all
+  cygport ./wxremind-100-X.cygport all
 
 This will create:
-  /usr/src/wxremind-90-X-src.tar.bz2
-  /usr/src/wxremind-90-X.tar.bz2
+  /usr/src/wxremind-100-X-src.tar.bz2
+  /usr/src/wxremind-100-X.tar.bz2
 
 -------------------------------------------
 
@@ -42,13 +42,16 @@ Files included in the binary package:
   /usr/bin/wxremdata
   /usr/bin/wxremhints
   /usr/bin/wxremind
-  /usr/share/doc/wxremind-90/CHANGES
-  /usr/share/doc/wxremind-90/COPYING
-  /usr/share/doc/wxremind-90/WXREMINDRC-LINUX
+  /usr/share/doc/wxremind-100/CHANGES
+  /usr/share/doc/wxremind-100/COPYING
+  /usr/share/doc/wxremind-100/WXREMINDRC-LINUX
 
 ------------------
 
 Port Notes:
+
+----- version 100-1 -----
+Version bump.
 
 ----- version 90-1 -----
 Version bump.
