@@ -7,13 +7,13 @@ together with a flexible display of your free/busy times for the week of
 the selected day.
 
 Runtime requirements:
-  python-2.5.2-4
+  python-2.5.4-10
   python-dateutil-1.4-1
-  python-wx2.8-2.8.9.1-1
-  remind-03.01.06-1
+  python-wx2.8-2.8.10.1-2
+  remind-03.01.07-1
 
 Build requirements:
-  cygport-0.4.3-1
+  cygport-0.9.10-1
 
 Canonical website:
   http://www.duke.edu/~dgraham/wxRemind/
@@ -24,40 +24,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack wxremind-100-X-src.tar.bz2
+  unpack wxremind-101-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./wxremind-100-X.cygport all
+  cygport ./wxremind-101-X.cygport all
 
 This will create:
-  /usr/src/wxremind-100-X-src.tar.bz2
-  /usr/src/wxremind-100-X.tar.bz2
+  /usr/src/wxremind-101-X-src.tar.bz2
+  /usr/src/wxremind-101-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/wxremalert
-  /usr/bin/wxremdata
-  /usr/bin/wxremhints
-  /usr/bin/wxremind
-  /usr/share/doc/wxremind-100/CHANGES
-  /usr/share/doc/wxremind-100/COPYING
-  /usr/share/doc/wxremind-100/WXREMINDRC-LINUX
-
-------------------
-
 Port Notes:
 
------ version 100-1 -----
-Version bump.
-
------ version 90-1 -----
-Version bump.
-
------ version 84-1 -----
-Initial release for Cygwin.
+----- version 101-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
